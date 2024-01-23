@@ -1,0 +1,59 @@
+body {
+    margin: 0px
+}
+
+#gui {
+    margin: 0;
+    background-image: url("painted-mini.jpeg");
+    background-size: cover;
+    font-family: Roboto;
+    font-weight: bolder;
+    text-align: center;
+    color: #3CC0F3;
+    text-shadow: 0px 0px 10px #1E1C2C;
+    max-width: 400px;
+    left: 0;
+    right: 9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+p {
+    color: #D0861F; //203C58;
+    text-shadow: 0px 0px 10px #3CC0F3; //D3ECFE;
+    padding-bottom: 30px;
+}
+
+#increment-btn {
+    border: solid 5px #203C58;
+    background: #D0861F;
+}
+
+#save-btn {
+    border: solid 5px #D0861F;
+    background: #203C58;
+}
+
